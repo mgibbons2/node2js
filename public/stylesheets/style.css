@@ -1,8 +1,21 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25vh 75vh;
+}
+.header{
+  text-align: center;
+  background-color: grey;
+  color: white;
+  line-height: 25vh;
+}
+.main{
+  text-align: center;
+  line-height: 75vh;
 }
 
 a {
   color: #00B7FF;
 }
+
